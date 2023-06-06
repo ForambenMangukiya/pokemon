@@ -1,9 +1,13 @@
 const express = require("express");
 const cors = require("cors");
 let jsonData = require("./file.json");
+const path = require("path"); // for rendering project
 // const { Pool } = require("pg");
 // require("dotenv").config();
 const app = express();
+
+app.use(express.static(path.join(__dirname, "../build"))); // for rendering project
+
 // app.use(express.json()); // select nd insert query mate
 app.use(cors());
 // const pool = new Pool();
