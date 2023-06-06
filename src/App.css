@@ -36,3 +36,172 @@
     transform: rotate(360deg);
   }
 }
+
+/* CSS for PokemonList Component */
+
+/* Header */
+.header {
+  background-color: #ffcb05;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Pokemon Card */
+.list {
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-content: center;
+  margin-right: 30px;
+  grid-row-gap: 0.5px;
+  text-align: center;
+}
+
+/* Pokemon Image */
+.img {
+  width: 180px;
+  height: 180px;
+  background: #ffcb05;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 15px 50px;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Pokemon Name */
+.pokename {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4b4747;
+  text-decoration: none;
+}
+
+/* // details */
+
+.details {
+  background-color: white;
+  height: 700px;
+}
+.image {
+  width: 300px;
+  height: 300px;
+  background: #ffcb05;
+  object-fit: cover;
+  margin-bottom: 10px;
+  margin-left: 140px;
+  border-radius: 15px 50px;
+  margin-top: 150px;
+}
+
+.name {
+  background-color: #ffcb05;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  margin-top: -500px;
+}
+.types {
+  background: #ffcb05;
+  border-radius: 15px 50px;
+  height: 50px;
+  width: 680px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 600px;
+  margin-top: 130px;
+}
+.base {
+  margin-top: 20px;
+  margin-left: 600px;
+  margin-right: 200px;
+  display: grid;
+  color: #333;
+  grid-template-columns: repeat(3, 2fr);
+}
+.bases {
+  background: #ffcb05;
+  border-radius: 15px 50px;
+  height: 50px;
+  width: 200px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+/* //battle */
+.battleheader {
+  background-color: #ffcb05;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+.player {
+  background: #ffcb05;
+  border-radius: 15px 50px;
+  height: 50px;
+  width: 300px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 50px;
+  text-align: center;
+  align-content: center;
+  margin-left: 390px;
+}
+.player2 {
+  background: #ffcb05;
+  border-radius: 15px 50px;
+  height: 50px;
+  width: 300px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: -50px;
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  margin-left: 800px;
+}
+.button {
+  width: 100px;
+  height: 25px;
+  background: #ffcb05;
+  text-align: center;
+  border-radius: 15px 50px;
+  height: 50px;
+  width: 300px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 600px;
+}
+.winner {
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  background: #ffcb05;
+  text-align: center;
+  border-radius: 15px 50px;
+  height: 12px;
+  width: 260px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+.battleimg1 {
+  margin-top: 50px;
+  width: 200px;
+  align-items: center;
+}
+.battleimg2 {
+  margin-top: 50px;
+  margin-left: 65px;
+  width: 200px;
+  align-items: center;
+}
